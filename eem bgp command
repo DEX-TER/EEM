@@ -1,0 +1,4 @@
+event manager applet BGP
+ event routing network 0.0.0.0/0 type remove protocol BGP le 1
+ action 1.0 cli command "enable"
+ action 2.0 cli command "clear ip bgp *"
